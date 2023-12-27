@@ -1,0 +1,77 @@
+.tasks--font, .tasks--font input, .tasks--font button{
+    color: #353535;
+    font-family: Josefin Sans, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.tasks--search{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.tasks--search__input{
+    display: flex;
+    width: 1090px;
+    height: 60px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #F8CA94;
+
+}
+
+.tasks--search__button{
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F8CA94;
+}
+
+.tasks__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    height: 800px;
+}
+
+.tasks__button--add{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #F8CA94;
+}
+
+.tasks__list{
+    display: flex;
+    align-items: stretch;
+    height: 70%;
+    overflow: auto;
+}
+
+.tasks__list__item{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks__list__item__button{
+    border-radius: 10px;
+    background: #F8CA94;
+}

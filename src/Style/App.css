@@ -5,21 +5,15 @@
   text-align: center;
 }
 
-.App__header{
+.App--todo{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #FFE794;
+  height: 91%;
   width: 100vw;
-  height: 9%;
 }
 
-.App__header__heading{
-  color: #000;
-  font-family: Josefin Sans, serif;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin: 0;
+.App--todo__tasks{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  height: 91%;
 }
